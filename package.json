@@ -1,0 +1,35 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Required for Heroku",
+  "main": "server.js",
+  "dependencies": {
+    "MyApp": "^0.0.0",
+    "body-parser": "^1.19.0",
+    "create-node-app": "^1.4.4",
+    "exports": "^0.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "require": "^2.4.20",
+    "require-stack": "^1.0.2",
+    "stack-trace": "^0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jrubi89/FriendFinder.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "NPM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jrubi89/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Jrubi89/FriendFinder#readme"
+}
