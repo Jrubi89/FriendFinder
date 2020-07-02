@@ -27,7 +27,7 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
     />
 
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
@@ -47,8 +47,7 @@
       <h3><strong>Question 1</strong></h3>
       <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
       <select data-placeholder="" class="chosen-select" id="q1">
-        <option value="" id= Select >Select an option</option>
-        <option value="1">1 (Strongly Disagree)</option>
+        <option value="1"selected>1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
@@ -58,9 +57,8 @@
       <h3><strong>Question 2</strong></h3>
       <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
       <select data-placeholder="" class="chosen-select" id="q2">
-        <option value="" id= Select >Select an option</option>
         <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
+        <option value="2"selected>2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5 (Strongly Agree)</option>
@@ -69,10 +67,9 @@
       <h3><strong>Question 3</strong></h3>
       <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
       <select data-placeholder="" class="chosen-select" id="q3">
-        <option value="" id= Select >Select an option</option>
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
-        <option value="3">3</option>
+        <option value="3"selected>3</option>
         <option value="4">4</option>
         <option value="5">5 (Strongly Agree)</option>
       </select>
@@ -84,7 +81,7 @@
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
-        <option value="4">4</option>
+        <option value="4"selected>4</option>
         <option value="5">5 (Strongly Agree)</option>
       </select>
 
@@ -96,18 +93,18 @@
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Strongly Agree)</option>
+        <option value="5"selected>5 (Strongly Agree)</option>
       </select>
 
       <h3><strong>Question 6</strong></h3>
       <h4>It is often difficult for you to relate to other people’s feelings.</h4>
       <select data-placeholder="" class="chosen-select" id="q6">
         <option value="" id= Select >Select an option</option>
-        <option value="1">1 (No Camping)</option>
+        <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5 (Regularly)</option>
+        <option value="5"selected>5 (Strongly Disagree)</option>
       </select>
 
       <h3><strong>Question 7</strong></h3>
@@ -117,7 +114,7 @@
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
-        <option value="4">4</option>
+        <option value="4"selected>4</option>
         <option value="5">5 (Strongly Agree)</option>
       </select>
 
@@ -127,7 +124,7 @@
         <option value="" id= Select >Select an option</option>
         <option value="1">1 (Strongly Disagree)</option>
         <option value="2">2</option>
-        <option value="3">3</option>
+        <option value="3"selected>3</option>
         <option value="4">4</option>
         <option value="5">5 (Strongly Agree)</option>
       </select>
@@ -137,7 +134,7 @@
       <select data-placeholder="" class="chosen-select" id="q9">
         <option value="" id= Select >Select an option</option>
         <option value="1">1 (Strongly Disagree)</option>
-        <option value="2">2</option>
+        <option value="2"selected>2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5 (Strongly Agree)</option>
@@ -147,7 +144,7 @@
       <h4>You feel more energetic after spending time with a group of people.</h4>
       <select data-placeholder="" class="chosen-select" id="q10">
         <option value="" id= Select >Select an option</option>
-        <option value="1">1 (Strongly Disagree)</option>
+        <option value="1"selected>1 (Strongly Disagree)</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
@@ -164,16 +161,7 @@
       </button>
       <br />
       <br />
-
-      <footer class="footer text-center">
-        <div class="container">
-          <p>
-            <a href="/api/friends">API list</a>  ||
-            <a href="https://github.com/Jrubi89/FriendFinder">GitHub Repo</a>
-            <br />
-          </p>
-        </div>
-      </footer>
+        
     </div>
     <div id="resultsModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -231,8 +219,8 @@
               $("#q10").val()
             ]
           };
-          var currentURL = window.location.origin;
-          $.post(currentURL + "/api/friends", userData, function(data) {
+          
+          $.post("http://localhost:3000/api/friends", userData, function(data) {
             $("#matchName").text(data.name);
             $("#matchImg").attr("src", data.photo);
 

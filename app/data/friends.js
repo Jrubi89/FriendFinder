@@ -8,7 +8,7 @@ var friends = [
 {
     name: "Elmo ",
     photo: "https://pbs.twimg.com/profile_images/1092451830758547457/EqQ6Csl3_400x400.jpg",
-    scores: [3, 2, 6, 4, 5, 1, 2, 5, 2, 5]
+    scores: [3, 2, 5, 4, 5, 1, 2, 5, 2, 5]
 },
 {
     name: "Big Bird",
@@ -23,7 +23,7 @@ var friends = [
 {
     name: "Bert",
     photo: "https://render.fineartamerica.com/images/rendered/default/poster/8/10/break/images/artworkimages/medium/1/bert-sesame-street.jpg",
-    scores: [5, 2, 2, 2, 4, 1, 3, 2, 5 ,6]
+    scores: [5, 2, 2, 2, 4, 1, 3, 2, 5 ,5]
 },
 {
     name: "Grover",
@@ -47,7 +47,7 @@ var friends = [
 {
     name: "Abby Cadabby",
     photo: "https://pbs.twimg.com/profile_images/1092452467525279745/1rfX10EB_400x400.jpg",
-    scores: [5, 4, 2, 6, 4, 1, 4, 2, 5 , 3]
+    scores: [5, 4, 2, 3, 4, 1, 4, 2, 5 , 3]
 }
 ];
 
