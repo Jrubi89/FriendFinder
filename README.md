@@ -1,13 +1,13 @@
-                                ## FriendFinder
+## FriendFinder
 
 Heroku Deployed Link: https://friendfinder12345.herokuapp.com/  
 
-##Instructions
+## Instructions
 
 The survey have 10 questions. Each answer should be on a scale of 1 to 5 based on answer the modal will display the name and picture if the closer match.
 
 
-##Example
+## Example
 
 Each user data is set as an array object
 
@@ -20,7 +20,7 @@ To determine the user's most compatible friend:
 
 Each user's results will convert into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]). , It compares the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
 
-Example:
+## Example:
 
 User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 
