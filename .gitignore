@@ -1,2 +1,2 @@
 .env
-/node_modules -m ""
+node_modules
