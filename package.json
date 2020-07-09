@@ -1,7 +1,7 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "Required for Heroku",
+  "description": "Needed for Heruko",
   "main": "server.js",
   "dependencies": {
     "MyApp": "^0.0.0",
@@ -12,6 +12,7 @@
     "path": "^0.12.7",
     "require": "^2.4.20",
     "require-stack": "^1.0.2",
+    "update": "^0.7.4",
     "stack-trace": "^0.0.10"
   },
   "devDependencies": {},
@@ -23,10 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/Jrubi89/FriendFinder.git"
   },
-  "keywords": [
-    "demo"
-  ],
-  "author": "NPM",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jrubi89/FriendFinder/issues"
