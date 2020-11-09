@@ -38,7 +38,6 @@ The app should calculate both 5-3 and 3-5 as 2, and so on. The closest match wil
 
 ## NPM I requirements:
 express and path.
-express and path.
 
 ## Roles
 
