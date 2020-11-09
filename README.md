@@ -4,7 +4,11 @@ Heroku Deployed Link: https://friendfinder12345.herokuapp.com/
 
 ## Instructions
 
-The survey have 10 questions. Each answer should be on a scale of 1 to 5 based on answer the modal will display the name and picture if the closer match.
+The survey have 10 questions.
+Each answer should be on a scale of 1 to 5 based on answer the modal.
+User will be able to updload his/hers pic.
+
+Once survey its submitted the page will reload and display the name and picture if the closer match.
 
 
 ## Example
